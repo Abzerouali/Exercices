@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
 * main - illustrates pointers arithmetic
-* Return: Always 0.
 */
-int main(void)
+void main(void)
 {
 	   int a[5];
 
@@ -21,5 +20,5 @@ int main(void)
 	   printf("Value of 'a' (also address of a[0]): %p\n", a);
 	   printf("Address of 'a[1]': %p\n", (a + 1));
 	   printf("Address of 'a[1]': %p\n", &(*(a + 1)));
-	   return (0);
+	   return;
 }
